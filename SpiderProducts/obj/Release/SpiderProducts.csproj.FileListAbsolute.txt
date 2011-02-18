@@ -1,0 +1,9 @@
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\SpiderProducts.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\SpiderProducts.pdb
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\Castle.DynamicProxy.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\HtmlDistiller.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\ICSharpCode.SharpZipLib.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\bin\Release\Winista.HtmlParser.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\obj\Release\ResolveAssemblyReference.cache
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\obj\Release\SpiderProducts.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderProducts\obj\Release\SpiderProducts.pdb

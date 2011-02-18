@@ -1,0 +1,7 @@
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\obj\Release\ResolveAssemblyReference.cache
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\IBatisNet.DataMapper.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\IBatisNet.DataMapper.xml
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\Castle.DynamicProxy.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\IBatisNet.Common.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\IBatisNet.Common.xml
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\obj\Release\IBatisNet.DataMapper.dll

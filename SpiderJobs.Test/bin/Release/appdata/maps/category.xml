@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sqlMap namespace="CategoryMap" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://ibatis.apache.org/mapping">
+
+	<alias>
+		<typeAlias alias="Category" type="SpiderDomain.Category,SpiderDomain" />
+	</alias>
+	       
+	<resultMaps>                                    
+		<resultMap id="CategoryResult" class="Category">
+			<result property="id" column="id"/>
+			<result property="sp1010" column="sp1010"/>
+			<result property="name"	column="name"/>
+		</resultMap>
+	</resultMaps>
+  
+	<statements>	
+		<select id="GetCategorys" resultMap="CategoryResult">
+      select * from categories order by category_order
+    </select>		
+	</statements>
+	
+</sqlMap>

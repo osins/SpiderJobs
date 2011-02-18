@@ -1,0 +1,13 @@
+﻿正在安装程序集“H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe
+   logfile = H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.InstallLog
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe 程序集中可能可以找到“Yes”属性。
+正在提交程序集“H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe
+   logfile = H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.InstallLog
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderService\bin\Release\SpiderService.exe 程序集中可能可以找到“Yes”属性。
+没有安装程序，因此移除 InstallState 文件。

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<sqlMap namespace="JobMap" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://ibatis.apache.org/mapping">
+
+	<alias>
+		<typeAlias alias="Job" type="SpiderDomain.Job,SpiderDomain" />	
+	</alias>
+	       
+	<resultMaps>   
+	</resultMaps>
+  
+	<statements>
+	
+		<insert id="InsertJob" parameterClass="Job">
+      insert jobs (type_id,category_id,title,description,is_active,created_on,city_id,sp1010url,poster_email,tel)values(2,#category_id#,#title#,#description#,1,#created_on#,2,#sp1010url#,#poster_email#,#tel#)
+    </insert>
+
+    <select id="IsExist" parameterClass="string">select id from jobs where sp1010url = #value# limit 1</select>
+	</statements>
+	
+</sqlMap>

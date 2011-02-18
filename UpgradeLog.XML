@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Spider">
+</Property><Property Name="解决方案文件" Value="H:\Soft\OpenSources\Jobberbase\Spider\Spider\Spider.sln">
+</Property><Property Name="Date" Value="2010年7月15日">
+</Property><Property Name="Time" Value="11:33">
+</Property></Properties><Event ErrorLevel="0" Project="SpiderJobs" Source="SpiderJobs\SpiderJobs.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SpiderJobs" Source="SpiderJobs\SpiderJobs.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpiderJobs.Test" Source="SpiderJobs.Test\SpiderJobs.Test.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SpiderJobs.Test" Source="SpiderJobs.Test\SpiderJobs.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpiderService" Source="SpiderService\SpiderService.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SpiderService" Source="SpiderService\SpiderService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Spider.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Spider.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpiderJobs" Source="SpiderJobs\SpiderJobs.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="已将文件转换为当前格式。">
+</Event><Event ErrorLevel="3" Project="" Source="Spider.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Spider.vsmdi" Description="已将文件转换为当前格式。">
+</Event><Event ErrorLevel="0" Project="SpiderJobs.Test" Source="SpiderJobs.Test\SpiderJobs.Test.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="SpiderService" Source="SpiderService\SpiderService.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa33289c-d847-49aa-a267-75b1bd9edec5" name="Public@WANGSYING-PC 2010-08-15 21:51:09" runUser="WANGSYING-PC\Public" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地测试运行" id="ccc38e6c-8127-4930-9ade-32e11125150a">
+    <Description>这是本地测试运行的默认测试运行配置。</Description>
+    <Deployment runDeploymentRoot="Public_WANGSYING-PC 2010-08-15 21_51_09">
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\bin\Release\SpiderDomain.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Lib\ICSharpCode.SharpZipLib.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\bin\Release\SpiderJobs.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\IBatisNet.DataMapper\bin\Release\IBatisNet.DataMapper.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDataAccess\bin\Release\SpiderDataAccess.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Lib\IBatisNet.Common.Logging.Log4Net.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\bin\Release\IBatisNet.Common.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\bin\Release\Castle.DynamicProxy.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Lib\log4net.dll" />
+      <DeploymentItem filename="H:\Soft\OpenSources\Jobberbase\Spider\Lib\Winista.HtmlParser.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-08-15T21:51:09.6868703+08:00" queuing="2010-08-15T21:51:13.9418762+08:00" start="2010-08-15T21:51:14.1418765+08:00" finish="2010-08-15T21:51:55.7430098+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="2" error="0" failed="6" timeout="0" aborted="0" inconclusive="5" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetDetailTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="adfc446c-cd2a-c45d-be49-27002404ee19">
+      <Execution id="663550be-f6b3-4a22-be13-170e729f3f1f" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.GetGanJiJobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDetailTest" />
+    </UnitTest>
+    <UnitTest name="GetHtmlTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="ce85a5f1-0bbd-8061-e7f3-a1f3720cb3e8">
+      <Execution id="7dcfbcda-70e3-4ce5-82bd-2be695c306f6" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.GetJobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetHtmlTest" />
+    </UnitTest>
+    <UnitTest name="IsExistJobTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="236ed6fb-c5ed-d9a2-8c96-f4c1eac2a555">
+      <DeploymentItems>
+        <DeploymentItem filename="SpiderJobs.dll" />
+      </DeploymentItems>
+      <Execution id="d192f4fd-a007-45e1-bfe9-0948ddeb2f80" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.Get1010JobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsExistJobTest" />
+    </UnitTest>
+    <UnitTest name="GetListUrlTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="8b83e9b6-73dd-335d-edd4-73cfbf8952fc">
+      <Execution id="be6fa2a5-fa74-4e2d-a1a1-0166bb1ca77e" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.GetGanJiJobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetListUrlTest" />
+    </UnitTest>
+    <UnitTest name="InsertTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="99733f57-2707-e080-3e20-c335b36a465d">
+      <Execution id="4a800deb-d039-407a-b048-8be7b23ab033" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.JobMapTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertTest" />
+    </UnitTest>
+    <UnitTest name="IsExistTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="0c86bf6e-6b00-dbe3-269a-258b04e60ff5">
+      <Execution id="13d4ff9b-306e-4b66-a1f9-0fcef1f76d40" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.JobMapTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsExistTest" />
+    </UnitTest>
+    <UnitTest name="GetJobInfoParserTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="205510a4-6264-05f8-7819-dc857ed90e2d">
+      <Execution id="e89b8057-a8c4-45e3-97dd-62ec06b01151" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.Get1010JobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetJobInfoParserTest" />
+    </UnitTest>
+    <UnitTest name="GetJobDetailTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="7599ef81-4bbc-71a4-1c0b-42d81322e818">
+      <Execution id="30bea471-983f-46e9-ac51-eaa272fdadf5" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.Get1010JobsTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetJobDetailTest" />
+    </UnitTest>
+    <UnitTest name="GetImageCodeTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="365d815a-a275-f162-0cd9-36e32c5c3763">
+      <Execution id="59ed6aa3-00c3-408d-9724-c8c2ee7ca9c7" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.ParserHelpTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageCodeTest" />
+    </UnitTest>
+    <UnitTest name="TestInstance" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="5294a48a-ff12-ff43-914a-cda74cb69716">
+      <Execution id="8a7587d3-22e2-47be-b210-a344736235fc" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.MapperHelperTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInstance" />
+    </UnitTest>
+    <UnitTest name="GetCategorys" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="0be9b1e4-844a-725c-7432-e509cd3510b3">
+      <Execution id="1af375dd-6380-4318-a5e7-9df95c4b665f" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.MapperHelperTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCategorys" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="1ad70077-b10c-4ce3-e070-e3ced782bdac">
+      <Execution id="466c35fa-df22-4c4c-a9c1-4b6351ed7d9b" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.Start1010JobsSpiderTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="WriteLogTest" storage="h:\soft\opensources\jobberbase\spider\spider\spiderjobs.test\bin\release\spiderjobs.test.dll" id="ab059bf1-5904-bcbd-74c5-52ba5cad5037">
+      <Execution id="1b16f64d-afe1-4c8a-8f56-94cb121103eb" />
+      <TestMethod codeBase="H:/Soft/OpenSources/Jobberbase/Spider/Spider/SpiderJobs.Test/bin/Release/SpiderJobs.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SpiderJobs.Test.SpiderEventLogTest, SpiderJobs.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WriteLogTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0be9b1e4-844a-725c-7432-e509cd3510b3" executionId="1af375dd-6380-4318-a5e7-9df95c4b665f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c86bf6e-6b00-dbe3-269a-258b04e60ff5" executionId="13d4ff9b-306e-4b66-a1f9-0fcef1f76d40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ad70077-b10c-4ce3-e070-e3ced782bdac" executionId="466c35fa-df22-4c4c-a9c1-4b6351ed7d9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="205510a4-6264-05f8-7819-dc857ed90e2d" executionId="e89b8057-a8c4-45e3-97dd-62ec06b01151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="236ed6fb-c5ed-d9a2-8c96-f4c1eac2a555" executionId="d192f4fd-a007-45e1-bfe9-0948ddeb2f80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="365d815a-a275-f162-0cd9-36e32c5c3763" executionId="59ed6aa3-00c3-408d-9724-c8c2ee7ca9c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5294a48a-ff12-ff43-914a-cda74cb69716" executionId="8a7587d3-22e2-47be-b210-a344736235fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7599ef81-4bbc-71a4-1c0b-42d81322e818" executionId="30bea471-983f-46e9-ac51-eaa272fdadf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b83e9b6-73dd-335d-edd4-73cfbf8952fc" executionId="be6fa2a5-fa74-4e2d-a1a1-0166bb1ca77e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99733f57-2707-e080-3e20-c335b36a465d" executionId="4a800deb-d039-407a-b048-8be7b23ab033" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab059bf1-5904-bcbd-74c5-52ba5cad5037" executionId="1b16f64d-afe1-4c8a-8f56-94cb121103eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adfc446c-cd2a-c45d-be49-27002404ee19" executionId="663550be-f6b3-4a22-be13-170e729f3f1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce85a5f1-0bbd-8061-e7f3-a1f3720cb3e8" executionId="7dcfbcda-70e3-4ce5-82bd-2be695c306f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1af375dd-6380-4318-a5e7-9df95c4b665f" testId="0be9b1e4-844a-725c-7432-e509cd3510b3" testName="GetCategorys" computerName="WANGSYING-PC" duration="00:00:34.4795215" startTime="2010-08-15T21:51:14.2018766+08:00" endTime="2010-08-15T21:51:49.4180010+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af375dd-6380-4318-a5e7-9df95c4b665f">
+      <Output>
+        <StdOut>2010/08/15 21:51:15:SSS [DEBUG] IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory - Statement Id: [CategoryMap.GetCategorys] Prepared SQL: [select * from categories order by category_order]
+2010/08/15 21:51:15:SSS [DEBUG] IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory - Statement Id: [JobMap.IsExist] Prepared SQL: [select id from jobs where sp1010url =  ?param0  limit 1]
+2010/08/15 21:51:15:SSS [DEBUG] IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory - Statement Id: [JobMap.InsertJob] Prepared SQL: [insert jobs (type_id,category_id,title,description,is_active,created_on,city_id,sp1010url,poster_email,tel)values(2, ?param0 , ?param1 , ?param2 ,1, ?param3 ,2, ?param4 , ?param5 , ?param6 )]
+2010/08/15 21:51:15:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [CategoryMap.GetCategorys] PreparedStatement : [select * from categories order by category_order]
+2010/08/15 21:51:47:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Open Connection "10939191" to "MySQL, MySQL 5.2.7.0".
+2010/08/15 21:51:49:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Close Connection "10939191" to "MySQL, MySQL 5.2.7.0".</StdOut>
+        <ErrorInfo>
+          <Message>测试方法 SpiderJobs.Test.MapperHelperTest.GetCategorys 引发了异常: 
+System.InvalidCastException: 无法将类型为“SpiderDomain.Category”的对象强制转换为类型“SpiderDataAccess.CategoryMap”。</Message>
+          <StackTrace>    在 IBatisNet.DataMapper.MappedStatements.MappedStatement.RunQueryForList[T](RequestScope request, ISqlMapSession session, Object parameterObject, IList`1 resultObject, RowDelegate`1 rowDelegate)
+   在 IBatisNet.DataMapper.MappedStatements.MappedStatement.ExecuteQueryForList[T](ISqlMapSession session, Object parameterObject)
+   在 IBatisNet.DataMapper.SqlMapper.QueryForList[T](String statementName, Object parameterObject)
+   在 SpiderJobs.Test.MapperHelperTest.GetCategorys() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\MapperHelperTest.cs:行号 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13d4ff9b-306e-4b66-a1f9-0fcef1f76d40" testId="0c86bf6e-6b00-dbe3-269a-258b04e60ff5" testName="IsExistTest" computerName="WANGSYING-PC" duration="00:00:02.2499425" startTime="2010-08-15T21:51:49.4330010+08:00" endTime="2010-08-15T21:51:51.6930042+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13d4ff9b-306e-4b66-a1f9-0fcef1f76d40">
+      <Output>
+        <StdOut>2010/08/15 21:51:49:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.IsExist] PreparedStatement : [select id from jobs where sp1010url =  ?param0  limit 1]
+2010/08/15 21:51:49:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.IsExist] Parameters: [?param0=[value,test]]
+2010/08/15 21:51:49:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.IsExist] Types: [?param0=[String, System.String]]
+2010/08/15 21:51:51:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Open Connection "11510673" to "MySQL, MySQL 5.2.7.0".
+2010/08/15 21:51:51:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Close Connection "11510673" to "MySQL, MySQL 5.2.7.0".
+False</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="466c35fa-df22-4c4c-a9c1-4b6351ed7d9b" testId="1ad70077-b10c-4ce3-e070-e3ced782bdac" testName="RunTest" computerName="WANGSYING-PC" duration="00:00:02.6729735" startTime="2010-08-15T21:51:51.6980042+08:00" endTime="2010-08-15T21:51:54.3830079+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="466c35fa-df22-4c4c-a9c1-4b6351ed7d9b">
+      <Output>
+        <StdOut>2010/08/15 21:51:51:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [CategoryMap.GetCategorys] PreparedStatement : [select * from categories order by category_order]
+2010/08/15 21:51:52:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Open Connection "23464552" to "MySQL, MySQL 5.2.7.0".
+2010/08/15 21:51:54:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Close Connection "23464552" to "MySQL, MySQL 5.2.7.0".
+http://sh.1010jz.com/it/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/it/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/it/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/it/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/it/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/it/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/it/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/it/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/it/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/it/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/cuxiao/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/cuxiao/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/cuxiao/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/cuxiao/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/cuxiao/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/cuxiao/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/cuxiao/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/cuxiao/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/cuxiao/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/cuxiao/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/wenmi/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/wenmi/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/wenmi/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/wenmi/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/wenmi/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/wenmi/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/wenmi/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/wenmi/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/wenmi/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/wenmi/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/market/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/market/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/market/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/market/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/market/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/market/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/market/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/market/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/market/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/market/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/dianyuan/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/dianyuan/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/dianyuan/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/dianyuan/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/dianyuan/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/dianyuan/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/dianyuan/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/dianyuan/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/dianyuan/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/dianyuan/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/paifa/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/paifa/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/paifa/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/paifa/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/paifa/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/paifa/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/paifa/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/paifa/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/paifa/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/paifa/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/sheji/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/sheji/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/sheji/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/sheji/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/sheji/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/sheji/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/sheji/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/sheji/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/sheji/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/sheji/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/kuaiji/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/kuaiji/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/kuaiji/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/kuaiji/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/kuaiji/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/kuaiji/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/kuaiji/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/kuaiji/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/kuaiji/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/kuaiji/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/mote/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/mote/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/mote/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/mote/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/mote/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/peixun/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/peixun/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/peixun/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/peixun/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/peixun/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/peixun/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/peixun/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/peixun/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/peixun/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/peixun/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/jiazheng/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/jiazheng/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/jiazheng/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/jiazheng/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/jiazheng/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/jiazheng/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/jiazheng/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/jiazheng/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/jiazheng/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/jiazheng/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/fanyi/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/fanyi/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/fanyi/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/fanyi/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/fanyi/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/fanyi/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/fanyi/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/fanyi/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/fanyi/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/fanyi/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/ktv/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/ktv/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/ktv/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/ktv/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/ktv/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/ktv/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/ktv/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/ktv/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/ktv/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/ktv/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/qita/index1.html
+获取列表页面数据错误:http://sh.1010jz.com/qita/index1.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/qita/index2.html
+获取列表页面数据错误:http://sh.1010jz.com/qita/index2.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/qita/index3.html
+获取列表页面数据错误:http://sh.1010jz.com/qita/index3.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/qita/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/qita/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63
+http://sh.1010jz.com/qita/index5.html
+获取列表页面数据错误:http://sh.1010jz.com/qita/index5.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 SpiderJobs.Test.Start1010JobsSpiderTest.RunTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\Start1010JobsSpiderTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e89b8057-a8c4-45e3-97dd-62ec06b01151" testId="205510a4-6264-05f8-7819-dc857ed90e2d" testName="GetJobInfoParserTest" computerName="WANGSYING-PC" duration="00:00:00.0121698" startTime="2010-08-15T21:51:54.3980080+08:00" endTime="2010-08-15T21:51:54.4180080+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e89b8057-a8c4-45e3-97dd-62ec06b01151">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SpiderJobs.Test.Get1010JobsTest.GetJobInfoParserTest 引发了异常: 
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: </Message>
+          <StackTrace>    在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.GetJobInfoParser(String url) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 161
+   在 SpiderJobs.Test.Get1010JobsTest.GetJobInfoParserTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\Get1010JobsTest.cs:行号 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d192f4fd-a007-45e1-bfe9-0948ddeb2f80" testId="236ed6fb-c5ed-d9a2-8c96-f4c1eac2a555" testName="IsExistJobTest" computerName="WANGSYING-PC" duration="00:00:00.0100839" startTime="2010-08-15T21:51:54.4280080+08:00" endTime="2010-08-15T21:51:54.4480080+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d192f4fd-a007-45e1-bfe9-0948ddeb2f80">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;False&gt;，实际为: &lt;True&gt;。</Message>
+          <StackTrace>   在 SpiderJobs.Test.Get1010JobsTest.IsExistJobTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\Get1010JobsTest.cs:行号 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59ed6aa3-00c3-408d-9724-c8c2ee7ca9c7" testId="365d815a-a275-f162-0cd9-36e32c5c3763" testName="GetImageCodeTest" computerName="WANGSYING-PC" duration="00:00:00.0052895" startTime="2010-08-15T21:51:54.4530080+08:00" endTime="2010-08-15T21:51:54.4680081+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59ed6aa3-00c3-408d-9724-c8c2ee7ca9c7">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SpiderJobs.Test.ParserHelpTest.GetImageCodeTest 引发了异常: 
+System.DllNotFoundException: 无法加载 DLL“D:\codes\Spider\AspriseOCR.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。</Message>
+          <StackTrace>    在 SpiderJobs.ParserHelp.OCR(String file, Int32 type)
+   在 SpiderJobs.Test.ParserHelpTest.GetImageCodeTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\ParserHelpTest.cs:行号 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a7587d3-22e2-47be-b210-a344736235fc" testId="5294a48a-ff12-ff43-914a-cda74cb69716" testName="TestInstance" computerName="WANGSYING-PC" duration="00:00:00.0003379" startTime="2010-08-15T21:51:54.4830081+08:00" endTime="2010-08-15T21:51:54.4930081+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a7587d3-22e2-47be-b210-a344736235fc">
+      <Output>
+        <StdOut>11720312</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30bea471-983f-46e9-ac51-eaa272fdadf5" testId="7599ef81-4bbc-71a4-1c0b-42d81322e818" testName="GetJobDetailTest" computerName="WANGSYING-PC" duration="00:00:00.0008719" startTime="2010-08-15T21:51:54.5030081+08:00" endTime="2010-08-15T21:51:54.5130081+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30bea471-983f-46e9-ac51-eaa272fdadf5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 SpiderJobs.Test.Get1010JobsTest.GetJobDetailTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\Get1010JobsTest.cs:行号 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be6fa2a5-fa74-4e2d-a1a1-0166bb1ca77e" testId="8b83e9b6-73dd-335d-edd4-73cfbf8952fc" testName="GetListUrlTest" computerName="WANGSYING-PC" duration="00:00:00.0037483" startTime="2010-08-15T21:51:54.5230081+08:00" endTime="2010-08-15T21:51:54.5330081+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be6fa2a5-fa74-4e2d-a1a1-0166bb1ca77e">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SpiderJobs.Test.GetGanJiJobsTest.GetListUrlTest 引发了异常: 
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: </Message>
+          <StackTrace>    在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.ParserHelp.GetParser(String url) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\ParserHelp.cs:行号 20
+   在 SpiderJobs.GetGanJiJobs.GetListUrl(String url) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\GetGanJiJobs.cs:行号 17
+   在 SpiderJobs.Test.GetGanJiJobsTest.GetListUrlTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\GetGanJiJobsTest.cs:行号 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a800deb-d039-407a-b048-8be7b23ab033" testId="99733f57-2707-e080-3e20-c335b36a465d" testName="InsertTest" computerName="WANGSYING-PC" duration="00:00:01.0291295" startTime="2010-08-15T21:51:54.5430082+08:00" endTime="2010-08-15T21:51:55.5830096+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a800deb-d039-407a-b048-8be7b23ab033">
+      <Output>
+        <StdOut>2010/08/15 21:51:54:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.InsertJob] PreparedStatement : [insert jobs (type_id,category_id,title,description,is_active,created_on,city_id,sp1010url,poster_email,tel)values(2, ?param0 , ?param1 , ?param2 ,1, ?param3 ,2, ?param4 , ?param5 , ?param6 )]
+2010/08/15 21:51:54:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.InsertJob] Parameters: [?param0=[category_id,0], ?param1=[title,test], ?param2=[description,null], ?param3=[created_on,0001/1/1 0:00:00], ?param4=[sp1010url,null], ?param5=[poster_email,wangsying@msn.com], ?param6=[tel,null]]
+2010/08/15 21:51:54:SSS [DEBUG] IBatisNet.DataMapper.Commands.DefaultPreparedCommand - Statement Id: [JobMap.InsertJob] Types: [?param0=[Int32, System.Int32], ?param1=[String, System.String], ?param2=[System.DBNull, null], ?param3=[DateTime, System.DateTime], ?param4=[System.DBNull, null], ?param5=[String, System.String], ?param6=[System.DBNull, null]]
+2010/08/15 21:51:55:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Open Connection "1056902" to "MySQL, MySQL 5.2.7.0".
+2010/08/15 21:51:55:SSS [DEBUG] IBatisNet.DataMapper.SqlMapSession - Close Connection "1056902" to "MySQL, MySQL 5.2.7.0".</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 SpiderJobs.Test.JobMapTest.InsertTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\JobMapTest.cs:行号 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b16f64d-afe1-4c8a-8f56-94cb121103eb" testId="ab059bf1-5904-bcbd-74c5-52ba5cad5037" testName="WriteLogTest" computerName="WANGSYING-PC" duration="00:00:00.0016348" startTime="2010-08-15T21:51:55.5880096+08:00" endTime="2010-08-15T21:51:55.6130097+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b16f64d-afe1-4c8a-8f56-94cb121103eb">
+      <Output>
+        <StdOut>日志测试</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 SpiderJobs.Test.SpiderEventLogTest.WriteLogTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\SpiderEventLogTest.cs:行号 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="663550be-f6b3-4a22-be13-170e729f3f1f" testId="adfc446c-cd2a-c45d-be49-27002404ee19" testName="GetDetailTest" computerName="WANGSYING-PC" duration="00:00:00.0027735" startTime="2010-08-15T21:51:55.6280097+08:00" endTime="2010-08-15T21:51:55.6380097+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="663550be-f6b3-4a22-be13-170e729f3f1f">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 SpiderJobs.Test.GetGanJiJobsTest.GetDetailTest 引发了异常: 
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: </Message>
+          <StackTrace>    在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+ --- 内部异常堆栈跟踪的末尾 ---
+    在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.ParserHelp.GetParser(String url) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\ParserHelp.cs:行号 20
+   在 SpiderJobs.GetGanJiJobs.GetDetail(String url) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\GetGanJiJobs.cs:行号 28
+   在 SpiderJobs.Test.GetGanJiJobsTest.GetDetailTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\GetGanJiJobsTest.cs:行号 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7dcfbcda-70e3-4ce5-82bd-2be695c306f6" testId="ce85a5f1-0bbd-8061-e7f3-a1f3720cb3e8" testName="GetHtmlTest" computerName="WANGSYING-PC" duration="00:00:00.0020316" startTime="2010-08-15T21:51:55.6630097+08:00" endTime="2010-08-15T21:51:55.6730097+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dcfbcda-70e3-4ce5-82bd-2be695c306f6">
+      <Output>
+        <StdOut>http://sh.1010jz.com/mote/index4.html
+获取列表页面数据错误:http://sh.1010jz.com/mote/index4.html
+System.TypeInitializationException: “Winista.Text.HtmlParser.Http.HttpProtocol”的类型初始值设定项引发异常。 ---&gt; Winista.Text.HtmlParser.Util.ParserException: Error parsing configuration file or file is missing: 
+   在 Winista.Text.HtmlParser.Util.ParserConf.LoadResource(NameValueCollection properties, String name, Boolean quietFail)
+   在 Winista.Text.HtmlParser.Util.ParserConf.get_Props()
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetPoperty(String name)
+   在 Winista.Text.HtmlParser.Util.ParserConf.GetInt(String name, Int32 defaultValue)
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Winista.Text.HtmlParser.Http.HttpProtocol..ctor(Uri url)
+   在 SpiderJobs.Get1010Jobs.SpiderCurrentPage(Int32 idx) 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs\Get1010Jobs.cs:行号 63</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 SpiderJobs.Test.GetJobsTest.GetHtmlTest() 位置 H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderJobs.Test\GetJobsTest.cs:行号 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

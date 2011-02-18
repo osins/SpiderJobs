@@ -1,0 +1,15 @@
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.pdb
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\ResolveAssemblyReference.cache
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.dll
+H:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.pdb
+F:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.dll
+F:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.pdb
+F:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\ResolveAssemblyReference.cache
+F:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.dll
+F:\Soft\OpenSources\Jobberbase\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.pdb
+D:\docs\person\codes\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.dll
+D:\docs\person\codes\Spider\Spider\SpiderDomain\bin\Debug\SpiderDomain.pdb
+D:\docs\person\codes\Spider\Spider\SpiderDomain\obj\Debug\ResolveAssemblyReference.cache
+D:\docs\person\codes\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.dll
+D:\docs\person\codes\Spider\Spider\SpiderDomain\obj\Debug\SpiderDomain.pdb
